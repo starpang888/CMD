@@ -1,0 +1,15 @@
+CMD
+Copyright 2025 QDU-Robomaster
+
+This product includes software developed by QDU-Robomaster
+(https://github.com/QDU-Robomaster/CMD), licensed under the
+Apache License, Version 2.0.
+
+Modifications from the upstream version:
+
+- Renamed the RCInputSource enumerator RC_INPUT_DR16 to RC_INPUT_FSI6X, so that
+  the input slot is named after the Fsi6x Module that fills it rather than after
+  the DR16 receiver.
+- Removed the host_euler_data_tp_ member, which was declared but never
+  constructed or used.
+- Reflowed several declarations to satisfy the 90-column limit.
